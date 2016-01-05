@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <!-- This Description resource includes all the update and compatibility information for
+       a single add-on with the id foobar@developer.mozilla.org. You can list multiple
+       add-ons information in the same RDF file. -->
+  <RDF:Description about="urn:mozilla:extension:@wallabag-next">
+    <em:updates>
+      <RDF:Seq>
+
+      </RDF:Seq>
+    </em:updates>
+  </RDF:Description>
+</RDF:RDF>
