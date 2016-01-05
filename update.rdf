@@ -10,6 +10,29 @@
     <em:updates>
       <RDF:Seq>
 
+        <!-- Each li is a different version of the same add-on -->
+        <RDF:li>
+          <RDF:Description>
+              <em:version>1.0.0</em:version> <!-- This is the version number of the add-on -->
+
+            <!-- One targetApplication for each application the add-on is compatible with -->
+            <em:targetApplication>
+              <RDF:Description>
+                <em:id>{b2986d19-85dc-47ca-8b6c-6948cc5588c4}</em:id>
+                <em:minVersion>38.0a1</em:minVersion>
+                <em:maxVersion>43.*</em:maxVersion>
+
+                <!-- This is where this version of the add-on will be downloaded from -->
+                <em:updateLink>https://github.com/Aldarone/wallabag-extension-next/releases/download/v1.0.0/wallabag-next-1.0.0-signed.xpi</em:updateLink>
+                <em:updateHash>sha256:72965036bc1e77d9c3f6ecc0c88936bbcebec0f43c968993ad6c48c1b1bc2419</em:updateHash>
+
+                <!-- A page describing what is new in this updated version -->
+                <em:updateInfoURL>https://github.com/Aldarone/wallabag-extension-next/releases/tag/v1.0.0</em:updateInfoURL>
+              </RDF:Description>
+            </em:targetApplication>
+          </RDF:Description>
+        </RDF:li>
+
       </RDF:Seq>
     </em:updates>
   </RDF:Description>
